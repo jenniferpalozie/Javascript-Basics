@@ -1,0 +1,48 @@
+.(push) this element can add a string to the end of a seuqence;
+Example:
+
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp")
+
+*Console Output*
+[ 'Naomi', 'Quincy', 'CamperChan', 'freeCodeCamp' ]
+
+Another method essential for this project is the .pop() method. It removes the last element from an array and returns that element.
+Example:
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp");
+let popped;
+rows.pop();
+console.log(popped);
+console.log(rows);
+
+*Console Output*
+// running tests
+// tests completed
+// console output
+undefined
+[ 'Naomi', 'Quincy', 'CamperChan' ]
+
+Essentially, using the .pop() method is like returning a value back to you and using it in another part of your code.
+
+
+When assinging an empty value to an variable should look like this:
+let rows = [];
+
+To perform a task reptetedly until a condition is met you need to use loop.
+
+  Here is a basic for loop. for loops use the following syntax:
+
+Example Code
+for ("iterator"; "condition"; "iteration") {
+  logic;
+}
+
+Your loop now needs a proper iterator. The iterator is a variable you can declare specifically in your for loop to control how the loop iterates or goes through your logic.
+
+  The condition of a for loop tells the loop how many times it should iterate. When the condition becomes false, the loop will stop.
+
+In JavaScript, a Boolean value can be either true or false. These are not strings - you will learn more about the difference later on.
+
+Example Instructions: 
+For now, you will use the less than operator (<). This allows you to check if the value on the left is less than the value on the right. For example, count < 3 would evaluate to true if count is 2, and false if count is 4.
